@@ -48,14 +48,12 @@ func measure(g geometry) {
 }
 
 func main() {
-	r := rect{width: 3, height: 4}
-	r2 := rect{width: 1234, height: 454}
+	r := rect{width: 123, height: 54}
 	c := circle{radius: 5}
 	s := square{side: 10}
 
 	measure(r)
 	measure(c)
 	measure(s)
-	measure(r2)
 
 }
